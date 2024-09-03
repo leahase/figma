@@ -1,0 +1,110 @@
+
+.logo {
+    font-family: "Abyssinica SIL", serif; /*I could not find the exact font in google gonts, so i used the most similar one. */
+    font-style: normal;
+    font-size:30px;
+    line-height:160%;
+    letter-spacing:-2%;
+    color:#1B0A42;
+    margin-left:80px;
+    margin-top:37px;
+    margin-right:97px;
+}
+.header-home, .header-about, .header-blog, .header-contact, .header-sign-in, .header-button {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color:#1B0A42;
+    margin-right:22px;
+    margin-top: 48px;
+}
+.header-sign-in, .header-button{
+    margin-right: 40px;
+    margin-left: auto;
+}
+
+.logo, .header-home, .header-about, .header-blog, .header-contact, .header-sign-in, .header-button {
+    display:inline-block;
+}
+
+.logo-dot{
+    color: #824FF1;    
+}
+.header-sign-in {
+    margin-left:600px;
+    margin-right:8px;
+}
+.header-button {
+    margin-right: 67px;
+    margin-left: 8px;
+}
+.main-title {
+    font-family: "Ramaraja", serif;
+    font-style: normal;
+    font-size: 72px;
+    line-height:76px;
+    letter-spacing:2%;
+    color: #1B0A42;
+    max-width: 495px;
+    width:100%;
+    margin-top: 208.71px;
+    margin-left: 200px;
+
+}
+.main-paragraph{
+    font-family: “Roboto“, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 2%;
+    color: #9A9A9A;
+    margin-top: 10px;
+    margin-left:200px;
+    max-width: 400%;
+    width:100%;
+    margin-right:65px;
+    display: inline-block;
+}
+
+.main-title, .main-paragraph{
+    display:grid;
+}
+.main-button, .header-button{
+    color:#FFFFFF; /* white */
+    font-family: “Roboto“, sans-serif;
+    font-style: bold;
+    font-size:16px;
+    text-align:center;
+    line-height:32px;
+    letter-spacing: 2%;
+    width:152px;
+    height:64px;
+    border-radius: 6%;
+    background-color: #824FF1;
+    border:none;
+}
+.main-button {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.container {
+    display:flex;
+}
+
+.img1 {
+    position: relative;
+    margin-left: 90px;
+    margin-right:86px;
+    max-width: 658px;
+    max-height: 700px;
+}
+.img2 {
+    position: absolute;
+    margin-right: 785px;
+    margin-left:86px;
+    max-width: 821px;
+    max-height: 509px;
+    left:40%;
+}
